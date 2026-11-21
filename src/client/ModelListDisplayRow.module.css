@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--dsh-border, rgba(127, 127, 127, 0.15));
+}
+
+.labelGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.description {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.hint {
+  font-size: 11px;
+  opacity: 0.5;
+  margin-left: 4px;
+}
